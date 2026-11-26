@@ -1,0 +1,23 @@
+name: metaengine_openapi_dart_dio
+description: Generate a Dart Dio client and models from an OpenAPI specification.
+version: 1.0.0
+homepage: https://metaengine.eu
+repository: https://github.com/meta-engine/metaengine-openapi-dart-dio
+
+environment:
+  sdk: ^3.4.0
+
+platforms:
+  linux:
+  macos:
+  windows:
+
+executables:
+  metaengine_openapi_dart_dio:
+
+dependencies:
+  crypto: ^3.0.3
+  path: ^1.9.0
+
+dev_dependencies:
+  test: ^1.25.2
