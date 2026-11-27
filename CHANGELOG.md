@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1]
+
+- Add an Orders example that generates and analyzes a Dio client.
+
 ## [1.0.0]
 
 - Release the Dart Pub CLI with `MetaEngine.Dart.OpenApi.Dio` 1.0.0.

@@ -29,6 +29,10 @@ metaengine_openapi_dart_dio api.yaml ./lib/generated --receive-timeout 1500
 
 Run `metaengine_openapi_dart_dio --help` for the full option list.
 
+## Verified Orders example
+
+Try the generator with the versioned [Orders v1 example](https://www.metaengine.eu/converters?spec=openapi&target=dart-dio&example=orders&revision=v1), or download the [Dart/Dio Orders v1 starter](https://www.metaengine.eu/examples/in-your-repository/v1/orders/v1/dart-dio.zip).
+
 | Option | Behavior |
 | --- | --- |
 | `--connect-timeout`, `--receive-timeout`, `--send-timeout` | Set the individual Dio timeouts in milliseconds. Zero disables that timeout. |
